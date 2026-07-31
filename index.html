@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce Keren . K | Aspiring AI Engineer</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Portfolio of Joyce Keren . K - Aspiring AI Engineer and Python & ML Enthusiast based in Bengaluru. Discover computer vision, security, and bio-signal classification projects.">
+    <meta name="keywords" content="Joyce Keren, AI Engineer, Machine Learning, Python Developer, Bengaluru, Computer Vision, Portfolio">
+    <meta name="author" content="Joyce Keren . K">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gui-mode light-theme">
+
+    <!-- Background Neural Network Canvas -->
+    <canvas id="neural-canvas"></canvas>
+
+    <!-- Visual GUI Interface Wrapper -->
+    <div id="gui-view" class="view-container active">
+        
+        <!-- Header -->
+        <header id="main-header">
+            <div class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Joyce Keren</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            
+            <nav id="nav-links">
+                <a href="#hero" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills-scroll-wrapper" class="nav-link">Skills</a>
+                <a href="#achievements" class="nav-link">Hackathons</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button id="mode-toggle" class="mode-switch-btn" title="Toggle Terminal Mode">
+                    <i class="fa-solid fa-terminal"></i> Terminal Mode
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            
+            <!-- Custom Illustrated Hero Section -->
+            <section id="hero">
+                <!-- Drifting Cloud Layers -->
+                <div class="drifting-clouds">
+                    <div class="cloud cloud-1"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="cloud cloud-2"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="cloud cloud-3"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="cloud cloud-4"><i class="fa-solid fa-cloud"></i></div>
+                </div>
+
+                <div class="hero-illustration-container">
+                    
+                    <!-- Floating Badge Left -->
+                    <div class="floating-badge badge-left">
+                        <span class="badge-title">BASED IN</span>
+                        <span class="badge-value">BENGALURU</span>
+                    </div>
+
+                    <!-- Central Character Circle -->
+                    <div class="avatar-center-wrapper">
+                        <div class="avatar-star-ring"></div>
+                        <img src="joyce_cyber_avatar.png" alt="Joyce Keren Illustration" class="avatar-image">
+                    </div>
+
+                    <!-- Floating Badge Right -->
+                    <div class="floating-badge badge-right">
+                        <span class="badge-title">ENGINEER</span>
+                        <span class="badge-value">SINCE 2026</span>
+                    </div>
+                </div>
+
+                <!-- Text Overlay Content -->
+                <div class="hero-text-container">
+                    <h1 class="hero-name">JOYCE KEREN . K</h1>
+                    <div class="hero-headline">ASPIRING AI ENGINEER</div>
+                    <p class="hero-tagline">I'LL BE THERE CODE OR SHINE</p>
+                    
+                    <div class="hero-meta-badges">
+                        <span><i class="fa-solid fa-envelope"></i> kerenjoyce01@gmail.com</span>
+                        <a href="https://github.com/joyccceee-keren" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i> joyccceee-keren
+                        </a>
+                    </div>
+
+                    <div class="hero-action-buttons">
+                        <a href="#projects" class="btn btn-primary">Discover Projects</a>
+                        <button class="btn btn-secondary terminal-trigger"><i class="fa-solid fa-terminal"></i> Try CLI Mode</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2 class="section-title"><span class="number">01.</span> Core Projects</h2>
+                
+                <div class="projects-grid">
+                    
+                    <!-- Project 1: Highway Speed Estimation -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fa-solid fa-car-side"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/joyccceee-keren/Highway-speed-Estimation" target="_blank" rel="noopener noreferrer" title="View Source">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Highway Speed Estimation</h3>
+                        <p class="project-description">
+                            A computer vision pipeline that estimates the speeds of oncoming/outgoing vehicles in real-time from traffic camera feeds.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>OpenCV</li>
+                            <li>Object Tracking</li>
+                            <li>Computer Vision</li>
+                        </ul>
+                        <div class="project-badge">Computer Vision</div>
+                    </div>
+
+                    <!-- Project 2: Virtual Steering -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fa-solid fa-gamepad"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/joyccceee-keren/Virtual_sterring" target="_blank" rel="noopener noreferrer" title="View Source">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Virtual Steering Control</h3>
+                        <p class="project-description">
+                            An interactive touchless interface utilizing webcam input and hand gestures to control a virtual steering wheel for simulation games.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>OpenCV</li>
+                            <li>MediaPipe</li>
+                            <li>Gesture Mapping</li>
+                        </ul>
+                        <div class="project-badge">Human-Computer Interaction</div>
+                    </div>
+
+                    <!-- Project 3: MYS-ECG -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/joyccceee-keren/MYS-ECG" target="_blank" rel="noopener noreferrer" title="View Source">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">MYS-ECG Signal Analyzer</h3>
+                        <p class="project-description">
+                            A diagnostic analysis project that processes raw ECG signals, classifies heart rhythms, and alerts users to anomalies or arrhythmias.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>NumPy</li>
+                            <li>Pandas</li>
+                            <li>Signal Processing</li>
+                        </ul>
+                        <div class="project-badge">Bio-Signal ML</div>
+                    </div>
+
+                    <!-- Project 4: Digital Signature & OTP -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fa-solid fa-signature"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/joyccceee-keren/digital-signature" target="_blank" rel="noopener noreferrer" title="View Source">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Digital Signature Security</h3>
+                        <p class="project-description">
+                            A secure login integration leveraging cryptographic digital signatures alongside an OTP generation mechanism for enhanced verification.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Python</li>
+                            <li>Cryptography</li>
+                            <li>AES/RSA</li>
+                            <li>Security APIs</li>
+                        </ul>
+                        <div class="project-badge">Security</div>
+                    </div>
+
+                </div>
+
+                <!-- Secondary Projects Area -->
+                <div class="additional-repos">
+                    <h3 class="additional-title">Other Repositories</h3>
+                    <div class="repo-list">
+                        <div class="repo-item">
+                            <div class="repo-info">
+                                <span class="repo-name">otp-login-system</span>
+                                <span class="repo-desc">Secure verification framework using Flask/SMTP.</span>
+                            </div>
+                            <a href="https://github.com/joyccceee-keren/otp-login-system" target="_blank" rel="noopener" class="repo-link">
+                                <i class="fa-brands fa-github"></i> Source
+                            </a>
+                        </div>
+                        <div class="repo-item">
+                            <div class="repo-info">
+                                <span class="repo-name">Typing-speed-game-</span>
+                                <span class="repo-desc">Interactive dashboard measuring keyboard keystroke frequency.</span>
+                            </div>
+                            <a href="https://github.com/joyccceee-keren/Typing-speed-game-" target="_blank" rel="noopener" class="repo-link">
+                                <i class="fa-brands fa-github"></i> Source
+                            </a>
+                        </div>
+                        <div class="repo-item">
+                            <div class="repo-info">
+                                <span class="repo-name">green-ui-dashboard-</span>
+                                <span class="repo-desc">A premium glassmorphic environment styled with eco gradients.</span>
+                            </div>
+                            <a href="https://github.com/joyccceee-keren/green-ui-dashboard-" target="_blank" rel="noopener" class="repo-link">
+                                <i class="fa-brands fa-github"></i> Source
+                            </a>
+                        </div>
+                        <div class="repo-item">
+                            <div class="repo-info">
+                                <span class="repo-name">snake_game.py</span>
+                                <span class="repo-desc">Pygame retro snake setup with modern rendering touches.</span>
+                            </div>
+                            <a href="https://github.com/joyccceee-keren/snake_game.py" target="_blank" rel="noopener" class="repo-link">
+                                <i class="fa-brands fa-github"></i> Source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Scroll Wrapper (300vh vertical scroll track) -->
+            <div id="skills-scroll-wrapper">
+                <section id="skills">
+                    <div class="skills-horizontal-track">
+                        
+                        <!-- Slide 1: 3D Header (Inspired by Robby Leonardi) -->
+                        <div class="skills-slide slide-intro">
+                            <div class="skills-3d-text-container">
+                                <h2 class="skills-title-3d">SKILLS</h2>
+                                <p class="skills-scroll-hint"><i class="fa-solid fa-angles-right"></i> Scroll Down to Slide <i class="fa-solid fa-angles-right"></i></p>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2: AI & Data Science -->
+                        <div class="skills-slide">
+                            <div class="skills-category-panel">
+                                <div class="panel-header">
+                                    <span class="slide-number">02.1</span>
+                                    <h3><i class="fa-solid fa-brain"></i> AI & Data Science</h3>
+                                </div>
+                                <div class="skills-panel-body">
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Computer Vision</span>
+                                            <span class="skill-percent">80%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+                                    </div>
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Machine Learning Models</span>
+                                            <span class="skill-percent">75%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+                                    </div>
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Signal Processing (ECG)</span>
+                                            <span class="skill-percent">70%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 70%;"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3: Engineering -->
+                        <div class="skills-slide">
+                            <div class="skills-category-panel">
+                                <div class="panel-header">
+                                    <span class="slide-number">02.2</span>
+                                    <h3><i class="fa-solid fa-code"></i> Engineering</h3>
+                                </div>
+                                <div class="skills-panel-body">
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Python Programming</span>
+                                            <span class="skill-percent">85%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+                                    </div>
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">C Programming</span>
+                                            <span class="skill-percent">75%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+                                    </div>
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Data Structures & Algorithms</span>
+                                            <span class="skill-percent">80%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4: Design & Security -->
+                        <div class="skills-slide">
+                            <div class="skills-category-panel">
+                                <div class="panel-header">
+                                    <span class="slide-number">02.3</span>
+                                    <h3><i class="fa-solid fa-palette"></i> Design & Security</h3>
+                                </div>
+                                <div class="skills-panel-body">
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Cryptography & Digital Signatures</span>
+                                            <span class="skill-percent">70%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 70%;"></div></div>
+                                    </div>
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Frontend Web Dev (HTML, CSS, JS)</span>
+                                            <span class="skill-percent">65%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 65%;"></div></div>
+                                    </div>
+                                    <div class="skill-row">
+                                        <div class="skill-info">
+                                            <span class="skill-name">UI / UX Prototyping</span>
+                                            <span class="skill-percent">70%</span>
+                                        </div>
+                                        <div class="skill-bar"><div class="skill-fill" style="width: 70%;"></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <!-- Hackathons / Achievements Section -->
+            <section id="achievements">
+                <h2 class="section-title"><span class="number">03.</span> Hackathons & Achievements</h2>
+                
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">GeeksforGeeks Sprints</div>
+                        <div class="timeline-content">
+                            <h3>Hackathon Participant & First Round Winner</h3>
+                            <p>Collaborated and built real-world optimization tools, successfully clearing the rigorous initial competitive coding and architecture rounds.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">State-Level College Sprints</div>
+                        <div class="timeline-content">
+                            <h3>Multiple State-Level College Hackathons</h3>
+                            <p>Represented college in Bengaluru and state levels in intensive 24-48 hour coding marathons. Developed prototype solutions under constraints and won top ranks for innovative architectures.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2 class="section-title"><span class="number">04.</span> Connect With Me</h2>
+                
+                <div class="contact-box">
+                    <p class="contact-prompt">
+                        Currently looking for opportunities as an AI Engineer, research associate, or backend python role. Have a question or want to collaborate? Reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:kerenjoyce01@gmail.com">kerenjoyce01@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/joyccceee-keren" target="_blank" rel="noopener noreferrer">github.com/joyccceee-keren</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Bengaluru, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-action">
+                        <a href="mailto:kerenjoyce01@gmail.com" class="btn btn-primary btn-large">
+                            <i class="fa-solid fa-paper-plane"></i> Email Me Direct
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Designed & Engineered by Joyce Keren . K © 2026. Made with ❤️ and Canvas Physics.</p>
+            <p class="footer-terminal-tip">Press the Terminal Mode button in the header for a console experience.</p>
+        </footer>
+
+    </div>
+
+    <!-- Retro Interactive Terminal Overlay -->
+    <div id="terminal-view" class="view-container">
+        <div class="terminal-window">
+            <div class="terminal-bar">
+                <div class="terminal-buttons">
+                    <span class="term-btn close-btn"></span>
+                    <span class="term-btn min-btn"></span>
+                    <span class="term-btn max-btn"></span>
+                </div>
+                <div class="terminal-title">joyce@ai-core:~</div>
+                <div class="terminal-actions">
+                    <button id="gui-toggle" class="gui-switch-btn" title="Toggle Graphical UI Mode">
+                        <i class="fa-solid fa-gauge-high"></i> Exit Terminal
+                    </button>
+                </div>
+            </div>
+            
+            <div class="terminal-body" id="terminal-body">
+                <div class="terminal-output" id="terminal-output">
+                    <div class="system-msg">Initializing AI Core Kernel v4.2...</div>
+                    <div class="system-msg">Connecting nodes in Bengaluru cluster... OK</div>
+                    <div class="system-msg">Joyce Keren . K - Active Profile Loaded.</div>
+                    <br>
+                    <pre class="terminal-ascii">
+   ___  ___  _   _  ____  ____ 
+  |_  |/ _ \| | | |/ ___|| ___|
+    | | | | | | | | |    | |__ 
+    | | | | | |_| | |___ |  __|
+/\__/ / |_| |\__, |\____|| |___
+\____/ \___/   |_|       |_____|
+                               
+   AI ENGINE CORE -- ACTIVE STATUS
+                    </pre>
+                    <br>
+                    <div class="welcome-text">
+                        Welcome to Joyce's Interactive terminal. 
+                        Type <span class="highlight">help</span> to see the list of active commands.
+                    </div>
+                    <br>
+                </div>
+                
+                <div class="terminal-input-line">
+                    <span class="prompt-user">joyce@ai-core:~$</span>
+                    <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Script JS -->
+    <script src="script.js"></script>
+</body>
+</html>
